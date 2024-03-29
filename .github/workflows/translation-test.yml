@@ -1,0 +1,20 @@
+name: Translation Test
+
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Composer Installation
+        uses: php-actions/composer@v5
+
+      - name: PHP 7.2+ Compatibility
+        id: test
+        uses: php-actions/composer@v5
+        with:
+          command: "test:translation"

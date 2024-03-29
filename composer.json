@@ -1,0 +1,20 @@
+{
+    "scripts": {
+        "test:translation": "TranslationTest\\Command\\Verify::execute"
+    },
+    "scripts-descriptions": {
+        "test:translation": "Test translation state against current English version."
+    },
+    "autoload": {
+        "psr-4": {
+            "TranslationTest\\":"tests/translation/"
+        }
+    },
+    "require-dev": {
+        "php": "^8.0"
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-simplexml": "*"
+    }
+}

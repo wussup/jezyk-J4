@@ -5,6 +5,8 @@
 .DS_Store
 .idea
 .vscode
+vendor
+tmp
 
 # OSX #
 ._*
