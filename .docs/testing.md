@@ -5,7 +5,7 @@
 
 ## Proces testowania
 - Przejdź w terminalu do katalogu repozytorium
-- Ruchom testową instalację Joomla! uruchamiając docker-a: `docker compose up`
+- Uruchom testową instalację Joomla!, uruchamiając Docker-a: `docker compose up`
 - Przejdź do [panelu administracyjnego](http://localhost/administrator)
 - Zainstaluj paczkę tłumaczenia
 
